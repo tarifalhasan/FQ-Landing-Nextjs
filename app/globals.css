@@ -25,3 +25,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .btn_primary {
+    border-radius: 8px;
+    background: var(--Celeste-principal-2, #00bcc1);
+    box-shadow: 0px 0px 10px 0px rgba(79, 224, 182, 0.6);
+    @apply px-5 inline-flex items-center py-2.5 hover:opacity-75;
+  }
+  .heading {
+    @apply text-[1.1rem]  sm:text-[1.6rem] lg:text-[2.5rem] font-[950] text-center;
+  }
+  .investion_card {
+    background: linear-gradient(
+      258deg,
+      rgba(79, 224, 190, 0) 14.63%,
+      rgba(79, 224, 182, 0.08) 56.32%,
+      rgba(79, 224, 182, 0.06) 65.36%,
+      rgba(217, 217, 217, 0) 109.44%
+    );
+    @apply relative overflow-hidden px-5 py-5 border border-[#4FE0B6] rounded-lg;
+  }
+
+  .text-stoke-3 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4fe0b6;
+  }
+  .reason_card {
+    border-radius: 27px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25) 0.11%,
+      rgba(79, 224, 182, 0.2) 43.76%,
+      rgba(0, 0, 0, 0.25) 99.89%
+    );
+    @apply relative overflow-hidden px-10 py-5 border border-[#4FE0B6];
+  }
+}
