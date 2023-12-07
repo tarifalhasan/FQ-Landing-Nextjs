@@ -63,4 +63,15 @@ body {
     );
     @apply relative overflow-hidden px-10 py-5 border border-[#4FE0B6];
   }
+  .about_content {
+    background-color: linear-gradient(
+      258deg,
+      rgba(79, 224, 182, 0) 14.63%,
+      rgba(79, 224, 182, 0.08) 56.32%,
+      rgba(79, 224, 182, 0.06) 65.36%,
+      rgba(217, 217, 217, 0) 109.44%
+    );
+    border: 5px solid #4fe0b6;
+    @apply rounded-lg w-full  sm:max-w-[432px] py-8 px-6;
+  }
 }

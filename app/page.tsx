@@ -1,3 +1,4 @@
+import About from "@/components/landing/About";
 import Blogs from "@/components/landing/Blogs";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Hero />
       <StartInvesting />
+      <About />
       <Reasons />
       <Contact />
       <Blogs />

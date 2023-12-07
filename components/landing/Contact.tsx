@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="pb-[155%] lg:pb-[85%] xl:pb-[55%] n bg-contact w-full relative m-0 p-0 bg-bottom bg-no-repeat bg-cover">
+    <section className="pb-[155%] sm:pb-[100%] lg:pb-[85%] xl:pb-[55%] n bg-contact w-full relative m-0 p-0 bg-bottom bg-no-repeat bg-cover">
       <Container className="">
         <div className="pt-28">
           <h2 className="heading text-skin-secondary">Contactanos</h2>

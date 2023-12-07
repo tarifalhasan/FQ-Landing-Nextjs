@@ -18,6 +18,7 @@ const config: Config = {
         "start-investing": "url('/start-inverstion.png')",
         contact: "url('/contact.png')",
         blog: "url('/blog.png')",
+        about: "url('/about.png')",
       },
       colors: {
         skin: {
