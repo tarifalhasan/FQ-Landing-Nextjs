@@ -1,10 +1,11 @@
+import Image from "next/image";
 import Container from "../Container";
 import { LineBottomCard, LineTopCard } from "../common/Asets";
 import InvestionCard from "./InvestionCard";
 
 const StartInvesting = () => {
   return (
-    <section className="  pt-[286%] sm:pt-[135%] lg:pt-[86%] xl:pt-[70%] 2xl:pt-[55%] relative overflow-hidden ] bg-start-investing bg-no-repeat  bg-top  bg-cover  ">
+    <section className="  pt-[286%] sm:pt-[135%] lg:pt-[86%] xl:pt-[70%] 2xl:pt-[55%] relative  ] bg-start-investing bg-no-repeat  bg-top  bg-cover  ">
       <div className=" absolute w-full  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Container className=" ">
           <div className=" pt-[10rem] lg:pt-[15rem]">
@@ -43,6 +44,13 @@ const StartInvesting = () => {
           </div>
         </Container>
       </div>
+      <Image
+        className="  hidden lg:block absolute left-0 top-[20%] z-[99999999]"
+        src={"/bulb-3.png"}
+        alt="sds"
+        width={325}
+        height={280}
+      />
     </section>
   );
 };
