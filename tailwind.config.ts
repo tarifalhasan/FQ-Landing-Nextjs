@@ -19,6 +19,8 @@ const config: Config = {
         contact: "url('/contact.png')",
         blog: "url('/blog.png')",
         about: "url('/about.png')",
+        g5: "linear-gradient(258deg, rgba(79, 224, 182, 0.00) 14.63%, rgba(79, 224, 182, 0.08) 56.32%, rgba(79, 224, 182, 0.06) 65.36%, rgba(217, 217, 217, 0.00) 109.44%)",
+        aboutReg: "url('/about-rectangle.png')",
       },
       colors: {
         skin: {
