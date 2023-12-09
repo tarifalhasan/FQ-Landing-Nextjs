@@ -32,13 +32,6 @@ const About = () => {
           />
         </div>
       </Container>
-      <Image
-        className="  hidden lg:block absolute right-0 -top-[55%] z-[99999999]"
-        src={"/Ellipse 2.png"}
-        alt="sds"
-        width={550}
-        height={310}
-      />
     </section>
   );
 };

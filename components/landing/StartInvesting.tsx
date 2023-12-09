@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Container from "../Container";
 import { LineBottomCard, LineTopCard } from "../common/Asets";
 import InvestionCard from "./InvestionCard";
@@ -44,13 +43,6 @@ const StartInvesting = () => {
           </div>
         </Container>
       </div>
-      <Image
-        className="  hidden lg:block absolute left-0 top-[20%] z-[99999999]"
-        src={"/bulb-3.png"}
-        alt="sds"
-        width={325}
-        height={280}
-      />
     </section>
   );
 };

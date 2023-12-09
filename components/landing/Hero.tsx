@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="  min-h-[75vh] sm:min-h-[85vh] bg-fixed lg:min-h-screen w-full relative">
+    <section className="  min-h-[75vh] overflow-hidden  sm:min-h-[85vh] n bg-fixed lg:min-h-screen w-full relative">
       <div className="absolute z-10  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Image
           src={heror}
@@ -28,21 +28,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <Image
-        className=" lg:block hidden absolute left-0 top-0 z-[99999999]"
-        src={"/bulp.png"}
-        alt="sds"
-        width={650}
-        height={575}
-      />
-      <Image
-        className="  hidden lg:block absolute right-0 top-[38%] z-[99999999]"
-        src={"/bulb-2.png"}
-        alt="sds"
-        width={650}
-        height={575}
-      />
     </section>
   );
 };

@@ -48,6 +48,7 @@ const Contact: React.FC = () => {
                   Nombre
                 </label>
                 <input
+                  required
                   className="bg-skin-secondary bg-opacity-[8%] outline-none border-none focus:outline-none block px-4 py-3 w-full rounded-[10px] text-white text-sm lg:text-base font-bold"
                   type="text"
                   name="name"
@@ -57,13 +58,14 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <label
-                  className="text-base lg:text-2xl font-normal pb-1 block"
+                  className="text-base  lg:text-2xl font-normal pb-1 block"
                   htmlFor="email"
                 >
                   Email
                 </label>
                 <input
-                  className="bg-skin-secondary bg-opacity-[8%] outline-none border-none focus:outline-none block px-4 py-3 w-full rounded-[10px] text-white text-sm lg:text-base font-bold"
+                  required
+                  className="bg-skin-secondary required:border-red-500 required:border bg-opacity-[8%] outline-none border-none focus:outline-none block px-4 py-3 w-full rounded-[10px] text-white text-sm lg:text-base font-bold"
                   type="email"
                   name="email"
                   value={formData.email}
@@ -83,6 +85,7 @@ const Contact: React.FC = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
+                  required
                 />
               </div>
               <button
