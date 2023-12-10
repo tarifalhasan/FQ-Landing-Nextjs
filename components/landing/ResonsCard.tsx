@@ -1,8 +1,8 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 interface IProps {
   title: string;
-  icon: string;
+  icon: string | ReactNode;
   description: string;
 }
 
@@ -10,14 +10,9 @@ const ResonsCard: FC<IProps> = ({ title, icon, description }) => {
   return (
     <div className="reason_card">
       <div className="flex overflow-hidden justify-center">
-        <div
-          style={{
-            backgroundImage: `url(${icon})`,
-          }}
-          className=" w-16 h-16  bg-contain relative p m-0 p-0 bg-no-repeat"
-        ></div>
+        <div className="">{icon}</div>
       </div>
-      <div className=" pt-2 space-y-3">
+      <div className=" pt-6 space-y-3">
         <h4 className=" text-base lg:text-xl font-[950] text-center">
           {title}
         </h4>
